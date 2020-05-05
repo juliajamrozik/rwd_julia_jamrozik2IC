@@ -1,0 +1,53 @@
+@media screen and (min-width: 321px) and (max-width: 480px){
+    img{display: none; }
+}
+body{
+    background-color: #99cccc;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #669999;
+}
+.menu{
+    background-color: #669999;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 0 30px;
+    height: 40px;
+}
+.jpg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h4{
+    justify-content: center;
+    size: 70px;
+}
+.opis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 220px;
+    
+}
+
+.contact{
+    background-color: #669999;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 140px;
+}
+.social{
+    background-color: #669999;
+    justify-content: space-around;
+}
+.copyright{
+    background-color: #669999;
+    text-align: center;
+}
