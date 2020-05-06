@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Moje portfolio</title>
+  <title>Portfolio</title>
   <meta name="description" content="">
   <meta name="author" content="">
   <script src="https://kit.fontawesome.com/3e2643cc96.js" crossorigin="anonymous"></script>
@@ -13,103 +13,97 @@
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"> -->
 
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-
-
-  <link rel="stylesheet" href="css/base.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/layout.css">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="skeleton.css">
   <link rel="stylesheet" href="app.css">
-
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
 
 </head>
-<body class="page-landing">
-
-<header class="header">
-    <div class="logo">
-<h1>Portfolio</h1>
-    </div>
-</header>
-
-<form class="container clearfix">
-
-<div class="menu">
-  <input class="nav-menu" id="all" type="radio" name="filter"
-checked="checked"/>
-<label for="all">Wszystkie</label>
-<input class="nav-menu" id="illustrations" type="radio"
-name="filter"/>
-<label for="illustrations">Ilustracje</label>
-<input class="nav-menu" id="posters" type="radio" name="filter"/>
-<label class="nav-menu" for="posters">Plakaty</label>
-<input class="nav-menu" id="typography" type="radio"
-name="filter"/>
-<label for="typography">Typografia</label>
-<input class="nav-menu" id="packaging" type="radio"
-name="filter"/>
-<label for="packaging">Opakowania</label>
-</div>
-
-<section class="portfolio">
-  <figure class="four columns all poster" data category="ilustracje">
-    <div class="jpg">
-    <img src="img1.jpg" alt="To jest pierwsza miniatura portfolio."> </div><br>
-    <br>
-    <div class="opis">
-    <figcaption>
-      <h4>Lorem Ipsum</h4>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit semper mollis. Nam dapibus tristique magna vitae eleifend. Ut vel lacus nulla. In massa nunc, tempus id tortor ut, sodales mattis magna. Cras purus leo, placerat sit amet vehicula quis, condimentum quis ipsum.
-         Pellentesque venenatis felis at porta lacinia. Nullam ut tortor massa.</p>
-    </figcaption>
-    </div>
-</figure>
-
-</form>
-
-<footer class="container clearfix">
-  <div class="contact">
-    <div class="dane">
-    <ul>
-    <li class="contact-name">Piotr Niewiadomski</li>
-    <li class="contact-phone">(+48) 600-700-800</li>
-    <li class="contact-email">piotrek@niewiadomski.pl</li>
-    </ul>
-    </div>
-    
-    <div class="social">
-      <a href="#"><i class="fab fa-facebook"></i></a>
-      <a href="#"><i class="fab fa-instagram"></i></a>
-      <a href="#"><i class="fab fa-twitter"></i></a>
+<body>
+<div class="container">
+    <header class="header">
+      <div class="logo">
+        <h1>Portfolio</h1>
       </div>
-    <div class="formularz">
-        <label for="name">Imię</label><br>
-        <input type="text" id="name"><br>
-        <label for="message">Wiadomość</label><br>
-        <textarea id="message"></textarea><br>
-        <button type="sumbit">Wyślij</button>
-    </div>
-    
-  </div>
-  
-  <p class="copyright">Piotr Niewiadomski &copy;</p>
-</footer>
+    </header>
+    <div class="menu">
+      <form class="nav">
+          <br>
+        <div class="nav-element">
+          <input class="nav-menu" id="all" type="radio" name="filter"  checked="checked"/>
+          <label for="all">Wszystkie</label>
+        </div>
+      
+        <div class="nav-element">
+          <input class="nav-menu"  id="illustrations" type="radio" name="filter" />
+          <label for="illustrations">Ilustracje</label>
+        </div>
 
+        <div class="nav-element">
+          <input class="nav-menu" id="posters" type="radio" name="filter" />
+          <label class="nav-menu" for="posters">Plakaty</label>
+        </div>
+
+        <div class="nav-element">
+          <input class="nav-menu" id="typography" type="radio" name="filter" />
+          <label for="typography">Typografia</label>
+        </div>
+
+        <div class="nav-element">
+          <input class="nav-menu" id="packaging" type="radio" name="filter" />
+          <label for="packaging">Opakowania</label>
+        </div> 
+      </form>
+    </div>
+
+  <section class="portfolio">
+    <div class="jpg" data category="img">
+        <img src="img1.jpg" alt="">
+    </div>
+    <div class="opis">
+     <figcaption>
+            <h4>Lorem Ipsum</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit semper mollis. Nam dapibus tristique magna vitae eleifend. Ut vel lacus nulla. In massa nunc, tempus id tortor ut, sodales mattis magna. Cras purus leo, placerat sit amet vehicula quis, condimentum quis ipsum.
+             Pellentesque venenatis felis at porta lacinia. Nullam ut tortor massa.</p>
+    </figcaption>
+ </section>
+ <br>
+ <br>
+ <br>
+ 
+
+ <div class="foot">
+        <footer class="footer">
+          <div class="contact">
+            <ul>
+            <li class="contact-name">Piotr Niewiadomski</li>
+            <li class="contact-phone">(+48) 600-700-800</li>
+            <li class="contact-email">piotrek@niewiadomski.pl</li>
+            </ul>
+          </div>
+          <div class="social">
+                <a href="#"><i class="fab fa-dribbble"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+    
+        </footer>
+ </div>
+ <p class="copyright">Piotr Niewiadomski &copy;</p>
+  
+</div>
   
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
